@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer_logo" />
+        <h1 style={{color:"#fff",fontSize:"4rem",fontFamily:""}}>Byte & Dine</h1>
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
@@ -44,7 +44,7 @@ const Footer = () => {
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">@{new Date().getFullYear()} Nairobi Bistro. All Rights reserved.</p>
+      <p className="p__opensans">@{new Date().getFullYear()} Byte & Dine. All Rights reserved.</p>
     </div>
 
   </div>

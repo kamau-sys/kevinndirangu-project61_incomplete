@@ -1,13 +1,30 @@
 import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
-import { data, images } from '../../constants';
+import { images } from '../../constants';
 import './SpecialMenu.scss';
+
+const data = {
+  wines: [
+    { title: 'Four Cousins Sweet Red', price: 'KES 1,200', tags: 'South Africa | 750ml' },
+    { title: 'Carlo Rossi', price: 'KES 1,500', tags: 'USA | Red | 750ml' },
+    { title: 'Simonsig Chenin Blanc', price: 'KES 2,000', tags: 'South Africa | White | 750ml' },
+    { title: 'Tusker Lager', price: 'KES 250', tags: 'Kenya | Beer | 500ml' },
+    { title: 'White Cap Lager', price: 'KES 250', tags: 'Kenya | Beer | 500ml' },
+  ],
+  cocktails: [
+    { title: 'Dawa', price: 'KES 600', tags: 'Vodka | Lime | Honey | Crushed Ice' },
+    { title: 'Kenya Mule', price: 'KES 700', tags: 'Vodka | Ginger beer | Lime' },
+    { title: 'Safari Sunset', price: 'KES 750', tags: 'Rum | Pineapple | Grenadine' },
+    { title: 'Passion Mojito', price: 'KES 700', tags: 'White Rum | Passion Fruit | Mint' },
+    { title: 'Classic Margarita', price: 'KES 800', tags: 'Tequila | Lime | Triple Sec' },
+  ],
+};
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits your palatte" />
+      <SubHeading title="Menu that fits your palate" />
       <h1 className="headtext__cormorant">Today&apos;s Special</h1>
     </div>
 
