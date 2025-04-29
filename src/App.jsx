@@ -6,13 +6,13 @@ import './App.scss';
 
 const App = () => (
   <div>
-    {/* <Navbar />
+    <Navbar />
     <Header />
     <AboutUs />
     <SpecialMenu />
     <Chef />
     <Intro />
-    <Laurels /> */}
+    <Laurels />
     <Gallery />
     <FindUs />
     <Footer />
